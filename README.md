@@ -65,5 +65,5 @@ int main() {
 
 # CONCLUSION
 
-Learnt how to use if,else and esle if statement in c++.
+Learnt how to use if,else and else if statement in c++.
 
