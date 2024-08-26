@@ -32,13 +32,15 @@ Syntax: switch(variable) { case value1: code1; break; case value2: code2; break;
 
 # CODE 
 ```
+//sumit pandey
 //experiment 5
 #include <iostream>
 using namespace std;
 
 int main() {
     double a, b, c;
-    
+    char operation;
+    int sub,prod,sum;
 
     cout << "Enter three numbers (a, b, c):" << endl;
     cout << "a: ";
@@ -56,12 +58,36 @@ int main() {
     } else {
         cout << "The greatest number is c: " << c << endl;
     }
+     
+    cout<<"Enter the OPERATION you want to perform"<<endl;
+    cin>>operation;
+
+    sum=a+b;
+    sub=a-b;
+    prod=a*b;
     
-    return 0;
-}
+    switch (operation){
+
+        case '+':
+        cout<<"Addition for your entered value is:"<<sum<<endl;
+        break;
+
+        case '-':
+        cout<<"Subtraction for your entered value is:"<<sub<<endl;
+        break;
+
+        case '*':
+        cout<<"Multiplication for your entered value is:"<<prod<<endl;
+        break;
+         
+         }
+
+         return 0;
+
+    }
 ```
 # OUTPUT
-![experiment_5_a_output](https://github.com/user-attachments/assets/406b5612-19b8-4ea8-89de-e10e13e64e6a)
+![image](https://github.com/user-attachments/assets/88d67fa5-0e33-49b6-89e5-03e061239c57)
 
 # CONCLUSION
 
